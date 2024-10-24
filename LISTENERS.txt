@@ -1,0 +1,18 @@
+          SERVER                    CLIENT
+Users     
+getAll    getAllUsers               usersFetched
+create    createUser                userCreated
+getId     getUserById               userFetched     
+update    updateUser                userUpdated
+delete    deleteUser                userDeleted
+
+Dialog
+getAll    getAllDialogs             dialogsFetched
+create    createDialog              dialogCreated
+getId     getDialogById             dialogFetched
+
+Message
+create    createMessage             messageCreated
+getId     getMessagesByDialogId     messagesFetched
+update    updateMessage             messageUpdated
+delete    deleteMessage             messageDeleted
